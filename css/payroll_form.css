@@ -1,4 +1,3 @@
-/* UC1 */
 body{
     height: 100%;
     margin: 0
@@ -6,7 +5,7 @@ body{
 
 .header{
     padding: 15px 0px;
-    background-color: #ffffff;
+    background-color: #ffffff
 }
 
 .header-content{
@@ -14,8 +13,7 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 0px solid green;
-    
+    border: 0px solid green
 }
 
 .logo-content{
@@ -23,7 +21,7 @@ body{
     flex-direction: row;
     align-items: center;
     border: 0px solid green;
-    width: 80%;
+    width: 80%
 }
 
 .logo-content > img{
@@ -45,25 +43,24 @@ body{
 *{
     box-sizing: border-box;
 }
-/* UC2 */
+
 .form-content{
     min-height: calc(100% - 80px);
     background-color: #f7f7f7;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: px solid green;
-    
+    border: 0px solid green
 }
 
 .form{
     width: 65%;
     padding: 44px 60px;
-    background: #ffffff 0% 0% no-repeat padding-box;
+    background: #ffffff 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
     border: 1px solid #f5f5f5;
     border-radius: 8px;
-    opacity: 1;
+    opacity: 1
 }
 
 .form-head{
@@ -72,7 +69,7 @@ body{
     color: #42515f;
     text-transform: capitalize;
     opacity: 1;
-    padding-bottom: 20px;
+    padding-bottom: 20px
 }
 
 .row-content{
@@ -84,12 +81,12 @@ body{
 }
 
 .label{
-    min-width: 140px
+    min-width: 150px
 }
 
 label{
     padding: 12px 12px 12px 0;
-    display: inline-block,
+    display: inline-block
 }
 
 .text{
@@ -106,7 +103,7 @@ label{
     border-radius: 4px;
     resize: vertical;
 }
-/* UC3 */
+
 .profile-radio-content{
     display: flex;
     flex-direction: row;
@@ -122,8 +119,12 @@ label{
     margin-left: 12px;
     border-radius: 50%;
     width: 40px;
-} 
-/* UC5 */
+}
+
+.slider{
+    width: 250px 
+}
+
 select{
     padding: 12px;
     border: 1px solid #ccc;
@@ -134,8 +135,8 @@ select{
     color: #42515f;
     background-color: transparent;
     margin-right: 15px
-} 
-/* UC6 */
+}
+
 .buttonParent{
     display: flex;
     margin-bottom: 10px;
@@ -159,20 +160,22 @@ select{
 }
 
 .submitButton{
-    background-color: #E2E2E2;
+    background-color: #f5f5f5;
     margin-right: 30px;
-    border-radius: 5px
+    border-radius: 4px
 }
 
 .resetButton{
-    background-color: #E2E2E2;
-    border-radius: 5px
+    background-color: #f5f5f5;
+    border-radius: 4px
 }
+
 .cancelButton{
     text-decoration: none;
-    text-align: center;
+    text-align: center
 }
-error-output{
+
+.error-output{
     margin-left: 10px;
     font-size: 12px;
     font-style: italic;
@@ -214,4 +217,4 @@ error-output{
         flex-direction: column-reverse;
         align-items: flex-start
     }
-}    
+}
